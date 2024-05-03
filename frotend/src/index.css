@@ -1,0 +1,123 @@
+        main{
+                min-height: 80vh;
+        }
+        span h6{
+                padding: 1rem 0;
+        }
+        header{
+                background-color: rgba(20, 147, 20, 0.79);
+        }
+        #search-bar{
+                width: 250px;
+                margin-left: 13rem;       
+        }
+
+        #cart-button {
+  color: black;
+}
+
+#signin-button{
+        color: black;
+}
+
+      
+        .search-btn{
+                margin: 10px;
+                width: 5rem;
+        }
+        .search-header{
+                border-radius: 5px;
+                padding:5px ;
+
+        }
+        .img-logo{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+            }
+        .logo{
+                margin-left: 10px;
+                display: inline-block;
+                font-size: 40px;
+        }
+        footer{
+                width: 100%;
+                height: 300px;
+                margin-top: 20px;
+                background-color:  var(--green);
+        }
+
+        .foot1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        }
+        li{
+                list-style: none;
+                padding: 6px;
+                color: white;
+        }
+        li a{
+                font-size: 15px;
+                color: white;
+        }
+        li a:hover{
+                border-bottom: .2rem solid white;
+                transition: border-bottom 3;
+        }
+        .liname{
+                margin-top: 20px;
+                font-weight: bolder;
+                font-size: 18px;
+                margin-bottom: 10px;
+                
+        }
+        p{
+                text-transform: lowercase;
+                display: inline;
+        }
+        .part{
+                width: 200px;
+                height: 200px;
+                margin: 10px;
+        }
+        .p{
+                display: flex;
+                margin-left: -50px;
+        }
+        i{
+                width: 20px;
+                height: 10px;
+        }
+        .a1{
+                width: 300px;
+        }
+        .a1 li a:hover{
+        text-decoration: none;  
+        border-bottom: none;
+        cursor:default;
+        }
+        .a2{
+                width: 150px;
+        }
+        
+        .scroll-top {
+                position: fixed;
+                bottom: 7.5rem;
+                right: 2rem;
+                z-index: 1000;
+                font-size: 3.5rem;
+                background: rgba(0, 255, 0, .1);
+                color: var(--green);
+                border-radius: .5rem;
+                border: .1rem solid rgba(0, 0, 0, .1);
+                padding: .5rem 1.5rem;
+                display: none;
+        }
+        
+        .scroll-top:hover {
+                background: var(--green);
+                color: #fff;
+        }
+
+
